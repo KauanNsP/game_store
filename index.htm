@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle">Game store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#para-gamer" class="nav-link ">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Para Gamers
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link ">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link ">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://th.bing.com/th/id/R.58367b1d4017ee091199bb6ca6532564?rik=lozeUIC9X%2fltVw&pid=ImgRaw&r=0" alt="Foto do espaço interno">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://arkpad.com.br/wp-content/uploads/2020/05/quarto-gamer-03-1.png" alt="taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://el124.com/wp-content/uploads/2020/10/gaming-setup-4.jpg" alt="mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://th.bing.com/th/id/R.cd2a31de50cba929222f74b6ad4de41e?rik=pQWjs7%2fjMhJSXQ&pid=ImgRaw&r=0" class="d-block w-100 rounded" alt="foto do espaço interno">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-tittle">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quae vero ratione debitis inventore voluptate ipsa quod. Doloribus itaque consectetur quisquam? Itaque dolorum voluptas suscipit, quis provident est maxime ad!
+                            </p>
+                            <h3 class="section-tittle">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis consectetur esse non! A quaerat vitae dicta quae, iure corrupti eos, earum commodi ullam totam beatae nemo cum! Autem, a quod.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="para-gamer" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Para todos <span class="text-colored">os Gamers</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://img.freepik.com/fotos-gratis/pecas-de-computador-com-disco-rigido-memoria-ram-cpu-placa-grafica-e-placa-mae_160097-356.jpg?size=626&ext=jpg" class="d-block w-100 rounded mb-2" alt="Peças">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-gear"></i>
+                            Peças
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, delectus reiciendis reprehenderit non quis architecto voluptatum debitis expedita nesciunt eum tempora ipsum dolores quo, laudantium molestiae sunt, maxime minus aliquam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.shopify.com/s/files/1/0482/6126/7617/articles/M314_1080x.jpg?v=1633105598" class="d-block w-100 rounded mb-2" alt="Periféricos">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-headset"></i>
+                            Periféricos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, delectus reiciendis reprehenderit non quis architecto voluptatum debitis expedita nesciunt eum tempora ipsum dolores quo, laudantium molestiae sunt, maxime minus aliquam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://th.bing.com/th/id/OIP.WgR2aZ56ntWfUkTtChOC2QAAAA?rs=1&pid=ImgDetMain" class="d-block w-100 rounded mb-2" alt="Consoles">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-controller"></i>
+                            Consoles
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, delectus reiciendis reprehenderit non quis architecto voluptatum debitis expedita nesciunt eum tempora ipsum dolores quo, laudantium molestiae sunt, maxime minus aliquam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">
+                        Nossos <span class="text-colored">Produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Placa-mãe" class="fw-bold text-start nav-link text-colored active">Placa mãe</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Processadores" class="fw-bold text-start nav-link text-colored ">Processadores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Placas-de-video" class="fw-bold text-start nav-link text-colored ">Placas de video</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#water-cooler" class="fw-bold text-start nav-link text-colored ">water cooler</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#consoles" class="fw-bold text-start nav-link text-colored ">consoles</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Placa-mãe">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://imperioteixeira.com.br/wp-content/uploads/2020/08/Placa-M%C3%A3e-Asus-EX-A320M-Gaming-4-1.jpg" alt="Placa EX-A320M">
+                                        <h5 class="text-colored fw-bold mt-2">Placa EX-A320M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://imperioteixeira.com.br/wp-content/uploads/2021/03/Placa-M%C3%A3e-Gigabyte-B550M-Aorus-Elite-AMD-AM4-Micro-ATX-DDR4-3.jpg" alt="Placa B550M">
+                                        <h5 class="text-colored fw-bold mt-2">Placa B550M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://waz.vteximg.com.br/arquivos/ids/170507-1000-1000/113927-1-Placa_mae_AM4_MSI_A320M_Gaming_Pro_Micro_ATX_113927-5.jpg?v=636481846613030000" alt="Placa AM4-MSI A320M">
+                                        <h5 class="text-colored fw-bold mt-2">Placa AM4-MSI A320M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.ZzyjwQkxXVVl04pVt20OTgHaHa?rs=1&pid=ImgDetMain" alt="Placa B450M">
+                                        <h5 class="text-colored fw-bold mt-2">Placa B450M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.doocacommerce.com.br/chipbyte/product/placa-mae-gigabyte-intel-1151-ga-b250m-gaming-5-1525096344240_1000x1000+fill_ffffff.png" alt="Placa GA-B250M">
+                                        <h5 class="text-colored fw-bold mt-2">Placa GA-B250M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.doocacommerce.com.br/chipbyte/product/placa-mae-msi-intel-1151-h310m-gaming-plus-ddr4-1547034889363_1000x1000+fill_ffffff.jpg" alt="coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Placa H310M</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Processadores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images.tcdn.com.br/img/img_prod/1066780/processador_intel_core_i9_9900k_9a_geracao_cache_16mb_3_6ghz_5_0ghz_max_turbo_lga_1151_bx80684i99900_1231_1_c8f6a0c5402349ab471020450c8b61a3_20211203085648.jpg" alt="Intel® Core™ i9-9900K">
+                                        <h5 class="text-colored fw-bold mt-2">Intel® Core™ i9-9900K</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://techmartunbox.com/wp-content/uploads/2021/05/81wI04R451L._SL1500_.jpg" alt="Intel® Core™ i9-11900K">
+                                        <h5 class="text-colored fw-bold mt-2">Intel® Core™ i9-11900K</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Placas-de-video">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://media.ldlc.com/r1600/ld/products/00/06/03/73/LD0006037360.jpg" alt="RTX 4060 ti">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 4060 ti</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://th.bing.com/th/id/OIP.xILo1j156rAQi9JCrbHRQQHaHa?rs=1&pid=ImgDetMain" alt="RTX 4070 ti">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 4070 ti</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://static.tweaktown.com/news/8/8/88259_03_colorful-igame-geforce-rtx-4080-ultra-oc-spotted-oh-man-here-we-go_full.png" alt="RTX 4080">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 4080</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://http2.mlstatic.com/D_NQ_NP_695345-MLA54968253619_042023-O.webp" alt="RTX 4090">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 4090</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="water-cooler">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://i.zst.com.br/thumbs/1/30/35/-661368363.jpg" alt="Water Cooler PCYes Nix 2">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler PCYes Nix 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://a-static.mlcdn.com.br/800x560/water-cooler-deepcool-ls520-wh-branco-argb-240mm/gazinbi/27651/f02612a494534150d95a7b60dd7e0fcb.jpeg" alt="Water Cooler Deepcool Ls520">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler Deepcool Ls520</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://a-static.mlcdn.com.br/800x560/water-cooler-z-240-rise-mode-frost-240mm-rgb-rm-wcz-02-rgb/fsinformaticaes/39596c34d17e11eeb4c44201ac185040/aae3982d7275ecc863900fca995dae1a.jpeg" alt="Water Cooler Z 240 Rise">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler Z 240 Rise</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://a-static.mlcdn.com.br/800x560/water-cooler-rise-mode-360mm-amd-intel-rgb-12v-2000rpm-preto-rm-wcb-03-rgb/eliteinfooficial/66f8b83e99ca11ee83464201ac185040/f170035da31807a804c45b0f2cfa6539.jpeg" alt="Water Cooler Rise Mode, 360mm">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler Rise Mode, 360mm</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://http2.mlstatic.com/D_NQ_NP_989469-MLB74477133646_022024-O.webp" alt="Water Cooler Mancer Mystic G1">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler Mancer Mystic G1</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://http2.mlstatic.com/D_NQ_NP_943217-MLB70925382142_082023-O.webp" alt="Water Cooler Gamer Redragon Preto ">
+                                        <h5 class="text-colored fw-bold mt-2">Water Cooler Gamer Redragon Preto </h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="consoles">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/05/xbox-series-x-1938459.jpg?itok=w3CyQnOo" alt="Xbox Series X">
+                                        <h5 class="text-colored fw-bold mt-2">Xbox Series X</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://s.yimg.com/os/creatr-uploaded-images/2020-11/7c9dc7a0-24f3-11eb-aed4-9f1ba3e2dec3" alt="PlayStation 5">
+                                        <h5 class="text-colored fw-bold mt-2">PlayStation 5</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Fale <span class="text-colored">conosco<span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcinal)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="menssagem" class="form-label fw-bold text-colored">Sua menssagem</label>
+                                <textarea class="form-control" id="menssagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo 145, bairro bootstrap -sp
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
